@@ -70,9 +70,9 @@ header {
     height: 800px;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
-
+    align-items: center;
 }
 
 iframe { 
@@ -90,6 +90,14 @@ iframe {
     align-items: center;
     justify-content: center;
     
+}
+
+#figcaption{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 /* section 5 media items */
@@ -144,7 +152,7 @@ li {
 }
 
 .mediacontent {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: navy;
-    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightseagreen;
+    font-size: 30px;
 }
